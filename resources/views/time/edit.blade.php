@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-         <form method="POST" action="../{{$time->id}}">
+         <form method="POST" action="{{url('/time/'.$time->id)}}">
             @method('PATCH')
             @csrf
           <div class="form-group">

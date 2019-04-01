@@ -16,7 +16,7 @@
 
                     
 
-        <form method="POST" action="../time">
+        <form method="POST" action="{{url('/time')}}">
             @csrf
           <div class="form-group">
             <label for="exampleInputtext">اضافة فترة</label>

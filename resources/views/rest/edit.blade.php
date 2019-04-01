@@ -33,7 +33,7 @@
                            اضغط<a href="{{url('/place/create')}}"> هنا </a> لاضافة استراحة
                       </h1>
                   @else
-                    <form action="{{ url('/place'.$value->id) }}" method="POST">
+                    <form action="{{ url('/place/'.$value->id) }}" method="POST">
                           @method('PATCH')
                           @csrf
 
